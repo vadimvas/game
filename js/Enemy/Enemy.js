@@ -4,6 +4,7 @@ class Enemy {
         this.y = 10;
         this.speedY = Math.random();
         this.marker = false;
+     
     }
     update(){
         this.y += this.speedY;

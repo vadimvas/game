@@ -14,6 +14,8 @@ class Game {
         this.enemyTimer = 0;
         this.enemyInterval = 1000;
         this.gameOver = false;
+        this.score = 0;
+        this.winningScore = 50;
         
 
     }
@@ -45,6 +47,7 @@ class Game {
                 if (this.checkCollision1(projectile,enemy)){
                     projectile.marker = true;
                     enemy.marker = true;
+                    this.score+=1
                 }
             });
         });

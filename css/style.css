@@ -1,9 +1,27 @@
+
 canvas{
     width: 1500px;
     height: 800px;
     background-color:rgb(0, 0, 0);
     margin-left: 200px;
+    
 }
 #player,#patron,#alien1,#alien2{
     display: none;
+}
+#button1{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 100px;
+    height: 30px;
+   
+
+}
+#button2{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
 }
